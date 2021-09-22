@@ -1,0 +1,95 @@
+.frame {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 10px 3px #c5c3c3;
+          box-shadow: 0px 0px 10px 3px #c5c3c3;
+  background: linear-gradient(45deg, #43389f 0%, #4ca9c1 100%);
+  font-family: 'Courier New', 'Courier', sans-serif;
+  color: #fff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.number {
+  width: 200px;
+  height: 100px;
+}
+
+.one-one {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  background: white;
+  border-radius: 3px;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  position: absolute;
+  top: 0;
+  left: -16px;
+  z-index: 2;
+}
+
+.one-two {
+  position: absolute;
+  width: 25px;
+  height: 100px;
+  background: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 10px 0px #0000004a;
+          box-shadow: 0px 0px 10px 0px #0000004a;
+  z-index: 8;
+}
+
+.zero-one {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 25px white;
+  left: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #0000004a;
+          box-shadow: 0px 0px 10px 0px #0000004a;
+  z-index: 6;
+}
+
+.zero-two {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 25px white;
+  left: 100px;
+  -webkit-box-shadow: 0px 0px 10px 0px #0000004a;
+          box-shadow: 0px 0px 10px 0px #0000004a;
+  z-index: 4;
+}
+
+.capitalText {
+  position: relative;
+  display: block;
+  font-size: 82px;
+  line-height: 60px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.smallText {
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
